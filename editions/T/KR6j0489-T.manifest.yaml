@@ -1,0 +1,32 @@
+canonical_identifier: bkk:krp/KR6j0489/T/v1
+canonical_location: https://kanripo.org/bkk/KR6j0489/T/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 摩利支天一印法
+  identifiers:
+    krp: KR6j0489
+    cbeta: T21n1259
+    cbeta_old_id: T21n1259
+    authorityid: CA0002296
+    json_key: T1259
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T21/T21n1259.xml
+    old_id: T21n1259
+  edition:
+    short: T
+assets:
+  parts:
+  - {seq: 0, filename: KR6j0489_000-T.yaml, hash: 'sha256:72dd95f85f5e9363096ae5aee23335a34fc27240767cc71131c2d2a91335f430'}
+  - {seq: 1, filename: KR6j0489_001-T.yaml, hash: 'sha256:a80074b8f4d7054374f768fe85c3d335c9e780891722018148b3ed383ace5d95'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR6j0489_000-T.markers.yaml, hash: 'sha256:78724189fdbaab285752e7bf5c8f06022c9872b3a3cd7fb8c70d2156e8869111'}
+  - {seq: 1, role: markers, filename: assets/KR6j0489_001-T.markers.yaml, hash: 'sha256:6650f549892829a5cc5d75fbc58bac6b59b8d63ea0e8d7b382d01defedbc44b1'}
+table_of_contents:
+- ref: {seq: 1, marker_id: KR6j0489_T_001-juan-start, span: [body, 0, 264]}
+  label: 摩利支天一印法
+  type: juan
+  level: 1
+hash: sha256:f4df2f072d575b983fa8e20b5d3eb301576f27801aebebba9e2824eb14a467a1
